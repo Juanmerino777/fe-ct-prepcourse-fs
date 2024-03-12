@@ -8,15 +8,12 @@ function saludo(idioma) {
   switch (idioma) {
     case "aleman":
       return "Guten Tag!"
-      break;
-    case "mandarin" :
+    case "mandarin":
       return "Ni Hao!"
-      break;
-    case "ingles" :
+    case "ingles":
       return "Hello!"
-      break;
-    default:return "Hola!"
-      break;
+    default:
+      return "Hola!"
   }
 }
 

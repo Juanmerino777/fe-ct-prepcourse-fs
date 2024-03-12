@@ -9,7 +9,7 @@ function esPotenciaDeDos(numero) {
       return false;
   }else{
     numero /=2;
-  }
+    }
   }
   return true;
 

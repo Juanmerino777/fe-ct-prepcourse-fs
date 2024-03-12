@@ -11,6 +11,6 @@ function encontrarElemento(elemento, array) {
   return -1;
 
 }
-encontrarElemento(4, [1,2,3,4,5,6,7]);
+
 
 module.exports = encontrarElemento;

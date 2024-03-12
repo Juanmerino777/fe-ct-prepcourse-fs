@@ -12,5 +12,4 @@ function esAnagrama(str1, str2) {
     else return false;
 }
 
-esAnagrama("hola mundo", "mundo hola")
 module.exports = esAnagrama;

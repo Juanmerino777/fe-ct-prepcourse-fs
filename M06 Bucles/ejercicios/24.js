@@ -12,7 +12,4 @@ function invertirTexto(texto) {
 
   return texto.split("").reverse().join("");
 }
-
-invertirTexto("hola mundo");
-
 module.exports = invertirTexto;

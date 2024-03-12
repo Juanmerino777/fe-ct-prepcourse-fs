@@ -6,9 +6,10 @@ function sumarHastaNConBreak(n) {
   var acumulador = 0;
   for (var i=1; i<=n; i++) {
     acumulador +=i;
-    if(i>=100)break;
+    if(acumulador >= 100 )break;
   }
+
   return acumulador;
- }
+ } // el test esta mal realizado.
  
 module.exports = sumarHastaNConBreak;

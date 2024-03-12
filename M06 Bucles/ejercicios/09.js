@@ -6,8 +6,8 @@ function conection(status) {
   // Retornar el estado de conexión del usuario.
   // Tu código:
   
-  if(status===1)return "Online"
-  else if (statu===2)return "Away"
+  if(status === 1)return "Online"
+  else if (status === 2)return "Away"
   return "Offline";
 }
 
